@@ -1,1 +1,36 @@
-/* write your override styles here */
+/* Target tag-1 */
+#wall > .tag-1 {
+    display: none;
+    /* Styles here */
+  }
+  
+  /* Target tag-2 */
+  body #wall #tag-2 {
+   display: none;
+  }
+   
+  /* Target tag-3 */
+  body div#wall > div.specific-container > #tag-3.slick {
+    background: none;
+  }
+  
+/* Additional CSS to override background images */
+body div#wall > .parent > #tag-4 {
+  background: none !important; /* Remove background image */
+}
+
+body div#wall .parent #tag-5.slick {
+  background: none !important; /* Remove background image */
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+  background: none !important; /* Remove background image */
+}
+
+  
+  /* Target tag-7 */
+  body div#wall > div.parent > div > div#tag-7.slick {
+   display: none;
+  }
+  
+  
